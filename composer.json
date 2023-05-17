@@ -1,0 +1,33 @@
+{
+  "name": "peachpear/peach-consumer-redis",
+  "description": "redis queue consumer project",
+  "keywords": ["redis", "consumer"],
+  "type": "project",
+  "license": "MPL-2.0",
+  "authors": [
+    {
+      "name": "dingdong",
+      "email": "1428837023@qq.com"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/yiisoft/yii2/issues?state=open",
+    "forum": "http://www.yiiframework.com/forum/",
+    "wiki": "http://www.yiiframework.com/wiki/",
+    "irc": "irc://irc.freenode.net/yii",
+    "source": "https://github.com/yiisoft/yii2"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://packagist.phpcomposer.com"
+    }
+  ],
+  "require": {
+    "php": "7.4.*",
+    "yiisoft/yii2": "2.0.34",
+    "yiisoft/yii2-redis": "~2.0.13",
+    "yiisoft/yii2-swiftmailer": "~2.1.3",
+    "yiisoft/yii2-queue": "^2.3"
+  }
+}
