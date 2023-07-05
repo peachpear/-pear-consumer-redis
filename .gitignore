@@ -30,7 +30,7 @@ phpunit.phar
 /vendor
 
 # composer.lock
-# composer.lock
+composer.lock
 
 # env
 .env

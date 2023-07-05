@@ -67,7 +67,11 @@ class LConsoleErrorHandler extends ErrorHandler
             $this->renderException($exception);
 
             // need to explicitly flush logs because exit() next will terminate the app immediately
-            Yii::getLogger()->flush(true);die;
+            Yii::getLogger()->flush(true);
+            if (defined('HHVM_VERSION')) {
+                flush();
+            }
+            exit(1);
         }
     }
 

@@ -20,6 +20,7 @@ $commonConfig = array(
             'hostname' => LEnv::get('redis.hostname'),
             'port' => LEnv::get('redis.port'),
             'database' => LEnv::get('redis.database'),
+            'password' => LEnv::get('redis.password'),
         ],
         'mailer' => [
             'transport' => [

@@ -7,7 +7,7 @@ pear让你更畅快地编程。 peach-consumer-redis是以peach-api为基础，�
 
 必要服务支持：php-cli、Redis
 
-可选服务支持：
+可选服务支持：MySQL
 
 ### 数据表
 
